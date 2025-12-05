@@ -21,8 +21,27 @@ function simpleMinute(horloge : Date){
     if(minutes === 1){
         return 1;
     }
+
+    if(minutes === 2){
+        return 2;
+    }
+
+    if(minutes === 3){
+        return 3;
+    }
+
+    if(minutes === 4){
+        return 4;
+    }
+
+    if(minutes % 5 == 0){
+        simpleMultipleOf5Minute();
+    }
+
 }
 
+export type {BerlinOclock};
+export default {simpleMinute};
 
 
 
