@@ -1,11 +1,4 @@
-interface BerlinOclock {
-    second: number;
-    minute: number;
-    minuteMultipleCinq: number;
-    heure: number;
-    heureMultipleCinq: number;
-}
-
+import { BerlinOclock } from "./type";
 
 const BerlinClock = new Date();
 const clock: BerlinOclock = {
@@ -40,8 +33,7 @@ function simpleMinute(horloge : Date){
 
 }
 
-export type {BerlinOclock};
-export default {simpleMinute};
+export default simpleMinute;
 
 
 
