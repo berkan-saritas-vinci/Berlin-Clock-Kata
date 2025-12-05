@@ -1,9 +1,7 @@
-interface BerlinOclock {
-    second: number;
-    minute: number;
-    minuteMultipleCinq: number;
-    heure: number;
-    heureMultipleCinq: number;
+class BerlinOclock {
+     convertMinuteLineOne(time: string): string{
+        return "XXXX";
+     }
 }
 
-export type { BerlinOclock };
+export default BerlinOclock ;
