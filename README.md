@@ -1,1 +1,1 @@
-# Berlin-Clock-Kata zzz
+# Berlin-Clock-Kata
