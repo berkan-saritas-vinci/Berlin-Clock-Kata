@@ -7,8 +7,9 @@ interface BerlinOclock {
 }
 
 
-const berlin = new Date();
+const BerlinClock = new Date();
 
-const Minute(): Number => {
-    
+function simpleMinute(horloge : Date){
+    const minutes = horloge.getMinutes;
 }
+
